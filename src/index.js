@@ -5,7 +5,7 @@ import App from './App';
 import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.render(
-  <BrowserRouter basename={"/react_news"}>
+  <BrowserRouter basename={"process.env.https://color000.github.io/react_news"}>
     <App />
   </BrowserRouter>,
   document.getElementById('root')
